@@ -1,0 +1,76 @@
+Objects in JavaScript:-
+
+    *   An object in JavaScript is a collection of key-value pairs, where each key serves as a unique identifier (property), and each value represents the associated data.
+    *   Curly braces {} are used to denote the beginning and end of the object.
+    *   Inside the curly braces, key-value pairs are defined using the format key: value.
+    *   Keys are strings and can be followed by a colon : to assign a value to the key.
+    *   Values can be any valid JavaScript data type, including strings, numbers, arrays, functions, or even other objects.
+    *   In JavaScript objects, commas are used to separate key-value pairs within the object. They act as separators, allowing you to define multiple properties and their 
+        corresponding values in a single object declaration.
+    *   Methods (functions) can be defined as properties of the object.
+
+
+Sample Code :-
+
+        let person = {
+            name: "John",
+            age: 30,
+            gender: "male"
+            city: "Tiruppur"
+        }
+
+How to Access The Object:-
+
+    * There are two types in JavaScript to Access The Object;
+        a) Dot notation  
+        b) Square bracket notation 
+
+Dot Notation:
+       * Dot notation is the most common and straightforward way to access properties of an object. 
+        It involves using a dot (.) followed by the property name to access the value associated with that property.
+        
+        syntax : "console.log(objectname.key)"
+
+
+Square Bracket Notation:
+       * Square bracket notation allows you to access object properties using square brackets ([]) and specifying the property name as a string inside the brackets.
+
+       syntax : "console.log(objectname['key'])"
+
+
+
+Output:-
+
+
+    using dot notation
+    
+    console.log(person.name) // o/p = Jhon
+    console.log(person.age) // o/p = 30
+
+    using square bracket notation
+
+    console.log(person['name']) // o/p = Jhon
+    console.log(person.['city']) // o/p = Tiruppur
+
+
+Internal Representation of Objects:
+
+        Internally, JavaScript engines use various data structures to represent objects efficiently. 
+        One common representation is the hash table, which allows for fast property lookup based on keys. 
+        This representation ensures that accessing properties of an object remains efficient regardless of its size.
+
+        The internal representation of objects in JavaScript involves how the JavaScript engine 
+        stores and manages objects in memory. 
+        While the specifics may vary between different JavaScript enginesthere are common principles that guide 
+        the internal representation of objects.
+
+Hash Table or Dictionary:
+       
+        One common approach used by JavaScript engines to represent objects internally is through hash tables or dictionaries. 
+        This data structure allows for efficient storage and retrieval of key-value pairs, with constant-time 
+        complexity for property access and modification.
+
+Memory Management:
+        JavaScript engines employ various memory management techniques to allocate, deallocate, and reclaim memory used by objects. 
+        These techniques include garbage collection, which automatically identifies and 
+        removes unused objects from memory to free up space for new objects.
