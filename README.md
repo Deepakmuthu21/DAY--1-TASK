@@ -1,4 +1,4 @@
-JavaScript Objects: Internal Representation
+JavaScript Objects and Internal Representation
 
 Welcome to the README for my blog post on JavaScript objects and their internal representation!
 
